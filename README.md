@@ -10,13 +10,19 @@ The same story as SuperTux, basically, Tux goes to a picnic with Penny, but Nolo
 * Build the game like you would with any other Godot game.
 
 ## Credits
-### Steel Paperclip Team
+### PepperTux (No longer really a team, which isn't a bad thing because this game is open for everyone to work on, not just three people)
 * Vaesea - Coding, Levels, Music
 * Convival - Only stuff for old PepperTux
 * AnatolyStev - Music
 
+### SuperTux Team
+* Grumbel - Made art for SuperTux (Most, if not all of the art, including unused / scrapped art like the Desert background is used here)
+* Stephen Groundwater - Also made art for SuperTux (Most of the art is used here)
+* Wansti - Made music for SuperTux (Most, if not all of the music for SuperTux is used here)
+* Jonfx1007 - Improved SuperTux's forest tileset (The slopes from that improvement are used here)
+* Weluvgoatz - Snow fort tiles (used as sand tiles here with the saturation reduced and with it also being recolored)
+
 ### Everyone Else
-* Everyone who worked on SuperTux - Assets from SuperTux, including but not limited to: Art and Music
 * Lukas Nystrand (Mortimer Twang) - Mortimer's Chipdisko
 * Mystical - Salcon
 * Larry Ewing - Creator of Tux
