@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://da3buf6q2g34c"
-path="res://.godot/imported/eveninggradient.png-2a63dcde889de57c56521f2a894da38e.ctex"
+uid="uid://cpjuqiwi43xyu"
+path="res://.godot/imported/newpalmtree.png-d191a740084ad0c2d7672906e4461114.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/backgrounds/eveninggradient.png"
-dest_files=["res://.godot/imported/eveninggradient.png-2a63dcde889de57c56521f2a894da38e.ctex"]
+source_file="res://assets/images/tiles/tropical/newpalmtree.png"
+dest_files=["res://.godot/imported/newpalmtree.png-d191a740084ad0c2d7672906e4461114.ctex"]
 
 [params]
 

@@ -8,6 +8,7 @@ extends CharacterBody2D
 # https://www.youtube.com/playlist?list=PLMb6Yv6-w-RWngEjn_YeMzVwgyXBZ73Bf
 # https://www.youtube.com/watch?v=M3BKy83wJ-g
 
+# Movement
 var speed = 320
 var acceleration = 0.1
 var deceleration = 0.08
@@ -15,10 +16,18 @@ var min_jump_height = 512
 var max_jump_height = 576
 var decelerate_on_jump_release = 0.5
 
+# Skidding (Doesn't work right now)
+var skid_time = 0.2
+var skidding = false
+var previous_direction = 1
+
+# Cutscene
 var in_cutscene = false
 
-var invincibility_frames = 0.5
+# Invincibility Frames
+var invincibility_frames = 1
 
+# Animation
 var facing_direction = 1
 
 func _ready() -> void:
@@ -53,7 +62,8 @@ func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		$SmallTux.play("jump")
 	elif velocity.x > 0 and not is_on_wall() or velocity.x < 0:
-		$SmallTux.play("walk")
+		if not skidding:
+			$SmallTux.play("walk")
 	else:
 		$SmallTux.play("stand")
 	

@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://dpigj34uvtspg"]
+[gd_scene load_steps=6 format=3 uid="uid://dpigj34uvtspg"]
 
 [ext_resource type="SpriteFrames" uid="uid://ce0l6nnkl1fft" path="res://assets/spriteframes/tux.tres" id="1_8ctss"]
 [ext_resource type="Script" uid="uid://diahktuf4kkqe" path="res://scenes_and_scripts/characters/tux.gd" id="1_d87wj"]
 [ext_resource type="AudioStream" uid="uid://boa2ewuigvejb" path="res://assets/sounds/jump.wav" id="3_ixj52"]
+[ext_resource type="AudioStream" uid="uid://byc7j6qba5inw" path="res://assets/sounds/skid.wav" id="4_53nbo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d87wj"]
 size = Vector2(24, 32)
@@ -36,3 +37,9 @@ drag_bottom_margin = 0.3
 
 [node name="SmallJump" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_ixj52")
+
+[node name="Skid" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_53nbo")
+
+[node name="SkidTime" type="Timer" parent="."]
+wait_time = 0.2

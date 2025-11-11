@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=37 format=3 uid="uid://b0fxxapggxmcq"]
+[gd_resource type="TileSet" load_steps=39 format=3 uid="uid://b0fxxapggxmcq"]
 
 [ext_resource type="Texture2D" uid="uid://d2cho7fu8jo2l" path="res://assets/images/tiles/snow/normal.png" id="1_r4ytj"]
 [ext_resource type="Texture2D" uid="uid://cb2o3kgw32ua5" path="res://assets/images/tiles/snow/backgroundtiles.png" id="2_ji2v1"]
@@ -18,6 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://bsxccirkfus00" path="res://assets/images/tiles/forest/statuetiles.png" id="9_0bksy"]
 [ext_resource type="Texture2D" uid="uid://mquero8l561b" path="res://assets/images/tiles/forest/treetiles.png" id="10_ayopb"]
 [ext_resource type="Texture2D" uid="uid://2m2n2xo60r8g" path="res://assets/images/tiles/forest/ghost.png" id="12_0bksy"]
+[ext_resource type="Texture2D" uid="uid://cpjuqiwi43xyu" path="res://assets/images/tiles/tropical/newpalmtree.png" id="18_mki23"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d68a2"]
 resource_name = "Snow"
@@ -1446,6 +1447,36 @@ texture_region_size = Vector2i(32, 32)
 7:14/0 = 0
 8:14/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p6u4w"]
+texture = ExtResource("18_mki23")
+texture_region_size = Vector2i(32, 32)
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+3:4/0 = 0
+3:5/0 = 0
+3:6/0 = 0
+3:7/0 = 0
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ayopb"]
 resource_name = "Ghost Forest"
 texture = ExtResource("12_0bksy")
@@ -1608,8 +1639,6 @@ texture_region_size = Vector2i(32, 32)
 [resource]
 tile_size = Vector2i(32, 32)
 physics_layer_0/collision_layer = 1
-sources/16 = SubResource("TileSetAtlasSource_75lkv")
-sources/17 = SubResource("TileSetAtlasSource_kywit")
 sources/0 = SubResource("TileSetAtlasSource_d68a2")
 sources/1 = SubResource("TileSetAtlasSource_p24hl")
 sources/2 = SubResource("TileSetAtlasSource_mysnh")
@@ -1626,3 +1655,6 @@ sources/14 = SubResource("TileSetAtlasSource_p8wrb")
 sources/13 = SubResource("TileSetAtlasSource_83s1u")
 sources/12 = SubResource("TileSetAtlasSource_mki23")
 sources/11 = SubResource("TileSetAtlasSource_13ykd")
+sources/18 = SubResource("TileSetAtlasSource_kywit")
+sources/17 = SubResource("TileSetAtlasSource_75lkv")
+sources/8 = SubResource("TileSetAtlasSource_p6u4w")
