@@ -1,0 +1,35 @@
+Authors
+-------
+
+----------------------------------------------------------------------------------------------------------------------------------
+| Authors File                                                                                                      [-] [[]] [X] |
+----------------------------------------------------------------------------------------------------------------------------------
+| This file was made to list every file made for PepperTux and who made it. If a file isn't listed, it's probably from SuperTux  |
+| or it only uses images from SuperTux (Spritesheets, for example)                                                               |
+| This file also copies the original SuperTux AUTHORS file.                                                                      |
+| The backgrounds that have the top, middle and bottom combined aren't listed here because they're from SuperTux.                |
+| The things that were made for SuperTux but aren't actually in SuperTux will be listed here, as well as music that was not made |
+| for SuperTux but was used in SuperTux, like Chipdisko or Airship Remix.                                                        |
+----------------------------------------------------------------------------------------------------------------------------------
+Template:
+assets/path/to/file.png - Author - SuperTux/PepperTux/OpenGameArt
+
+* = something
+
+== Images ==
+assets/images/backgrounds/desert.png - Grumbel - SuperTux
+assets/images/backgrounds/desertsky.png - Grumbel - SuperTux
+assets/images/backgrounds/*gradient.png - Vaesea (Morning and Night gradients colors are copied from SuperTux milestone 1 levels) - PepperTux
+assets/images/menu/logo.png - Grumbel (Original SuperTux Logo), Vaesea (Before the capital P was added), FilipOK (Capital P for the logo) - SuperTux (Original SuperTux Logo), PepperTux
+assets/images/tiles/snow/snow.png - Grumbel (Original Snow Tiles), Vaesea (Edits to remove the ice, not fully finished yet) - SuperTux (Original Snow Tiles), PepperTux
+assets/images/tiles/tropical/newpalmtree.png - FilipOK - PepperTux (New Palm Tree)
+assets/images/tiles/tropical/normal.png - Weluvgoatz (Original Snowfort Tiles), Vaesea (Sand recolor + Slopes) - SuperTux (Original Snowfort Tiles), PepperTux
+assets/images/tiles/tropical/palmtree.png - Vaesea - PepperTux (Old Palm Tree, will remove in the future)
+assets/images/tiles/tropical/stone.png - Vaesea - PepperTux
+assets/images/tiles/tropical/unisolidtiles.png - Weluvgoatz (Original Snowfort Tiles), Vaesea (Sand recolor) - SuperTux (Original Snowfort Tiles), PepperTux
+
+== Music ==
+assets/music/airship_remix.ogg - Bart (Original + OpenGameArt website), Remaxim (Orchestral Remix) - OpenGameArt (TODO: Add credits for this song to README)
+assets/music/arcticdarkness.ogg - AnatolyStev - PepperTux
+assets/music/chipdisko.ogg - Mortimer Twang - Modarchive?
+assets/music/freezingnight.ogg - Vaesea - PepperTux
