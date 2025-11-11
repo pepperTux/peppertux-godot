@@ -16,7 +16,7 @@ Check the AUTHORS file for more information.
 * Vaesea - Coding, Levels, Music
 * Convival - Only stuff for old PepperTux
 * AnatolyStev - Music
-* FilipOK - Art
+* FilipOK - Art, Music (Bonus Cave 2)
 
 ### SuperTux Team
 * Grumbel - Made art for SuperTux (Most, if not all of the art, including unused / scrapped art like the Desert background is used here)
