@@ -10,10 +10,11 @@ The same story as SuperTux, basically, Tux goes to a picnic with Penny, but Nolo
 * Build the game like you would with any other Godot game.
 
 ## Credits
-### PepperTux
+### PepperTux (Not a team, just people who made things for PepperTux)
 * Vaesea - Coding, Levels, Music
 * Convival - Only stuff for old PepperTux
 * AnatolyStev - Music
+* FilipOK - New Palm Tree for Tropical Island / Secret Desert
 
 ### SuperTux Team
 * Grumbel - Made art for SuperTux (Most, if not all of the art, including unused / scrapped art like the Desert background is used here)
